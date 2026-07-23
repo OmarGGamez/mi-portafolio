@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f0f0f;
+    color: white;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black, #222);
+  }
+  
+  .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .servicios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  h1, h2 {
+    animation: fadeIn 2s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
